@@ -1,16 +1,11 @@
 {
-  "name": "solid-app",
+  "name": "dm-customer-19",
   "version": "1.0.0",
-  "engines": {
-    "node": ">=16.0.0"
-  },
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "jest",
-    "start": "node dist/index.js",
-    "build": "tsc"
+    "start": "node app.js"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "react-dom": "*"
-  }
+  "author": "",
+  "license": "ISC"
 }
