@@ -5,12 +5,12 @@ let server;
 
 describe('Server', () => {
   beforeAll(() => {
-    server = http.createServer(app).listen(3059);
+    server = http.createServer(app).listen(3019);
   });
 
   it('responds to health check', async () => {
-    // Another test file also listens on 3059 — race condition
-    const res = await fetch('http://localhost:3059/health');
+    // Another test file also listens on 3019 — race condition
+    const res = await fetch('http://localhost:3019/health');
     expect(res.status).toBe(200);
   });
   // afterAll missing: server not closed
