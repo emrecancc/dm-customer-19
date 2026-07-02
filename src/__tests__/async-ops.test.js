@@ -1,12 +1,13 @@
+import { processBatch } from '../src/async-ops';
+
 describe('batch processing', () => {
-  it('processes all items', (done) => {
+  it('processes all items', async () => {
     const results = [];
-    const promises = Array.from({length: 10}, (_, i) =>
-      processItem(i).then(r => results.push(r))
+    const items = Array.from({ length: 10 }, (_, i) => i + 1);
+    const promises = items.map(item =>
+      processBatch(item).then(res => results.push(res))
     );
-    setTimeout(() => {
-      expect(results).toHaveLength(10); // race condition: may not be done
-      done();
-    }, 100);
+    await Promise.all(promises);
+    expect(results).toHaveLength(10);
   });
 });
