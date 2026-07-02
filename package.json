@@ -1,11 +1,11 @@
 {
-  "name": "dm-customer-19",
+  "name": "solid-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
+  "dependencies": {
+    "node-gyp": "latest"
   },
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "build": "npm run build:native",
+    "test": "jest"
+  }
 }
