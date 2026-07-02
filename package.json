@@ -1,17 +1,11 @@
 {
-  "name": "dm-customer-19",
+  "name": "solid-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "jest"
+  "dependencies": {
+    "react-query": "latest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {},
-  "engines": {
-    "node": ">=20.0.0"
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
   }
 }
