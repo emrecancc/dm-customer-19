@@ -7,5 +7,8 @@
   "scripts": {
     "test": "jest",
     "start": "node index.js"
+  },
+  "devDependencies": {
+    "http2": "*"
   }
 }
