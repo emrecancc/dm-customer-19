@@ -11,6 +11,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "react-dom": "*"
+    "react-dom": "*",
+    "missing": "*"
   }
 }
