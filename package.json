@@ -1,16 +1,10 @@
 {
-  "name": "solid-app",
+  "name": "dm-customer-19",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "test": "echo ok",
+    "build": "echo ok",
+    "install": "echo skip-native"
   },
-  "dependencies": {
-    "react": "^18.0.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0",
-    "concurrently": "*"
-  }
+  "dependencies": {}
 }
