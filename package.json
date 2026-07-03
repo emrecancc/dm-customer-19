@@ -11,7 +11,10 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "react-dom": "*"
+    "react-dom": "*",
+    "sqlite3": "*",
+    "5.1.0": "*",
+    "5.0.2": "*"
   },
   "engines": {
     "node": ">=20.0.0"
