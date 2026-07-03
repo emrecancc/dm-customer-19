@@ -2,8 +2,10 @@
   "name": "dm-customer-19",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo '// placeholder' > /home/runner/work/solid-app/server.js.js",
-    "start": "node /home/runner/work/solid-app/server.js.js",
-    "test": "echo ok"
-  }
+    "build": "mkdir -p dist && echo '// placeholder' > dist/index.js",
+    "start": "node dist/index.js",
+    "test": "echo 'ok'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
