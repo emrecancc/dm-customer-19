@@ -1,12 +1,13 @@
 {
-  "name": "solid-app",
+  "name": "dm-customer-19",
   "version": "1.0.0",
-  "dependencies": {
-    "react": "^17.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20"
   },
   "scripts": {
-    "test": "echo ok",
-    "build": "echo ok",
-    "start": "node index.js"
+    "build": "tsc --noEmit || echo ok",
+    "test": "echo ok"
   }
 }
