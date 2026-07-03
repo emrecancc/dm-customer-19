@@ -1,9 +1,12 @@
 {
-  "name": "dm-customer-19",
+  "name": "solid-app",
   "version": "1.0.0",
+  "dependencies": {
+    "react": "^17.0.0"
+  },
   "scripts": {
-    "build": "mkdir -p dist && echo '// placeholder' > dist/index.js",
-    "start": "node dist/index.js",
-    "test": "echo 'ok'"
+    "test": "echo ok",
+    "build": "echo ok",
+    "start": "node index.js"
   }
 }
