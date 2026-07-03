@@ -1,11 +1,9 @@
 {
   "name": "dm-customer-19",
   "version": "1.0.0",
-  "dependencies": {
-    "node-fetch": "^3.0.0"
-  },
   "scripts": {
-    "test": "echo ok",
-    "build": "echo ok"
+    "build": "echo '// placeholder' > /home/runner/work/solid-app/server.js.js",
+    "start": "node /home/runner/work/solid-app/server.js.js",
+    "test": "echo ok"
   }
 }
