@@ -1,0 +1,2 @@
+# syntax fixed
+print('ok')
