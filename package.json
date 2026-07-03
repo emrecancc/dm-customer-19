@@ -1,13 +1,17 @@
 {
   "name": "dm-customer-19",
   "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20"
-  },
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
-    "build": "tsc --noEmit || echo ok",
-    "test": "echo ok"
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
