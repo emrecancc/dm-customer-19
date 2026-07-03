@@ -6,5 +6,8 @@
     "build": "echo ok",
     "install": "echo skip-native"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "*"
+  }
 }
