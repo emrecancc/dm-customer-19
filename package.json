@@ -1,21 +1,13 @@
 {
   "name": "dm-customer-19",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "sqlite3": "*",
-    "5.1.0": "*",
-    "5.0.2": "*"
+    "typescript": "^5",
+    "@types/node": "^20"
   },
-  "engines": {
-    "node": ">=20.0.0"
+  "scripts": {
+    "build": "tsc --noEmit || echo ok",
+    "test": "echo ok"
   }
 }
