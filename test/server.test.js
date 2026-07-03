@@ -2,10 +2,16 @@ const request = require('supertest');
 const server = require('../src/server');
 
 describe('Server', () => {
-  it('responds to GET /', async () => {
+  beforeAll(() => {
+    server.listen(3119);
+  });
+
+  afterAll(() => {
+    server.close();
+  });
+
+  test('GET /', async () => {
     const res = await request(server).get('/');
-    expect(res.statusCode).toBe(200);
+    expect(res.status).toBe(200);
   });
 });
-
-afterAll(() => server.close());
