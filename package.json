@@ -1,11 +1,12 @@
 {
-  "name": "dm-customer-19",
+  "name": "solid-app",
   "version": "1.0.0",
   "dependencies": {
-    "node-fetch": "^3.0.0"
+    "react": "^17.0.0"
   },
   "scripts": {
     "test": "echo ok",
-    "build": "echo ok"
+    "build": "echo ok",
+    "start": "node index.js"
   }
 }
