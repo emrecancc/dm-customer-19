@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "react-dom": "*"
+  },
   "engines": {
     "node": ">=20.0.0"
   }
