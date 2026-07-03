@@ -10,12 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {},
-  "devDependencies": {
-    "react-dom": "*",
-    "sqlite3": "*",
-    "5.1.0": "*",
-    "5.0.2": "*"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=20.0.0"
   }
