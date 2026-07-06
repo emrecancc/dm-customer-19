@@ -1,11 +1,12 @@
 {
-  "name": "dm-customer-19",
+  "name": "solid-app",
   "version": "1.0.0",
-  "dependencies": {
-    "node-fetch": "^3.0.0"
-  },
   "scripts": {
-    "test": "echo ok",
+    "test": "jest --passWithNoTests",
     "build": "echo ok"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-node": "^29.0.0"
   }
 }
